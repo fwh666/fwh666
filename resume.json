@@ -1,100 +1,182 @@
 {
-  "titleNameMap": {
-    "educationList": "教育背景",
-    "workExpList": "工作经历",
-    "projectList": "项目经验",
-    "skillList": "个人技能",
-    "awardList": "更多信息",
-    "workList": "个人作品",
-    "aboutme": "个人评价"
-  },
-  "avatar": {
-    "src": "https://img.fuwenhao.club/blog/touxiang02.png",
-    "hidden": false
-  },
-  "profile": {
-    "name": "傅文浩",
-    "email": "736xxxx86@qq.com",
-    "mobile": "156xxxx7119",
-    "github": "https://github.com/fwh666",
-    "zhihu": "",
-    "workExpYear": ""
-  },
-  "educationList": [
-    {
-      "edu_time": [
-        "2010.09.01",
-        "2013.06.30"
-      ],
-      "school": "天津石油职业技术学院",
-      "major": "计算机网络技术"
-    }
-  ],
-  "awardList": [
-    {
-      "award_info": "前端早早聊 分享 “如何构思和开发开箱即用的可视化图表库 G2Plot”",
-      "award_time": "2021.07"
-    }
-  ],
-  "workExpList": [
-    {
-      "company_name": "蚂蚁集团",
-      "department_name": "体验技术部",
-      "work_time": [
-        "2018.06",
-        null
-      ],
-      "work_desc": "1. 担任蚂蚁高管决策和管理协同产品 “数据作战室” 的前端负责人\r\n2. 负责蚂蚁敏捷 BI 产品 “DeepInsight” 的可视分析模块产品能力建设\n3. 数据可视化 AntV 团队核心成员，负责 G2、G2Plot 开源技术的建设"
+    "titleNameMap": {
+        "educationList": "教育背景",
+        "workExpList": "工作经历",
+        "projectList": "项目经验",
+        "skillList": "个人技能",
+        "awardList": "更多信息",
+        "workList": "个人作品",
+        "aboutme": "个人评价"
     },
-    {
-      "company_name": "蚂蚁金服",
-      "department_name": "大数据部",
-      "work_time": [
-        "2017.06",
-        "2017.12"
-      ],
-      "work_desc": "前端实习生。使用 React 参与开发多类数据产品的研发工作，同时也参与大型 BI 产品的重构工作，有良好的编码习惯。"
+    "avatar": {
+        "src": "https://img.fuwenhao.club/blog/touxiang02.png",
+        "hidden": false
     },
-    {
-      "company_name": "数沃信息科技有限公司",
-      "department_name": "",
-      "work_time": [
-        "2017.03",
-        "2017.05"
-      ],
-      "work_desc": "前端实习生。使用 Vue 来实现平台功能和逻辑，再用 ECharts 来对数据挖掘分析后的可视化结果进行展示"
+    "profile": {
+        "name": "傅文浩",
+        "email": "fuwenhao594@163.com",
+        "mobile": "17600579044",
+        "github": "https://github.com/fwh666",
+        "zhihu": "",
+        "workExpYear": "8年",
+        "workPlace": "北京市",
+        "positionTitle": "后端工程师"
+    },
+    "educationList": [
+        {
+            "edu_time": [
+                "2010.09.01",
+                "2013.06.30"
+            ],
+            "school": "天津石油职业技术学院",
+            "major": "计算机网络技术"
+        },
+        {
+            "edu_time": [
+                "2018.09.01~2021.12.21"
+            ],
+            "school": "北京邮电大学",
+            "major": "计算机信息技术",
+            "dataIndex": 1
+        }
+    ],
+    "awardList": [
+        {
+            "award_info": "前端早早聊 分享 “如何构思和开发开箱即用的可视化图表库 G2Plot”",
+            "award_time": "2021.07"
+        }
+    ],
+    "workExpList": [
+        {
+            "company_name": "神州数码集团",
+            "department_name": "研发部",
+            "work_time": [
+                "2019.11",
+                ""
+            ],
+            "work_desc": "1. 担任电商"积分权益"项目的后端高级开发\n 2. 负责项目功能的落地和产品的可视分析模块的能力建设\n 3. 奇点项目团队核心成员, 负责业务埋点的技术建设",
+            "dataIndex": 0
+        },
+        {
+            "company_name": "北京保盛航空服务公司",
+            "department_name": "技术部",
+            "work_time": [
+                "2019.01",
+                "2019.11"
+            ],
+            "work_desc": "1. 担任票务业务的核心开发\n 2.参与技术架构,负责技术组件库建设及性能优化等工作"
+        },
+        {
+            "company_name": "北京安软信息科技有限公司",
+            "department_name": "技术部",
+            "work_time": [
+                "2016.02",
+                "2019.01"
+            ],
+            "work_desc": "1. 担任后端软件开发工程师\n 2.负责财税业务核心功能开发"
+        },      
+        {
+            "company_name": "天津米诺科技公司",
+            "department_name": "技术部",
+            "work_time": [
+                "2013.05",
+                "2015.12"
+            ],
+            "work_desc": "Java初级工程师,负责基础功能开发实现,日常功能开发"
+        }
+    ],
+    "skillList": [
+        {
+            "skill_name": "Spring",
+            "skill_level": 80,
+            "skill_desc": "深入理解Spring开源框架设计"
+        },
+        {
+            "skill_name": "SpringCloud",
+            "skill_level": 80,
+            "skill_desc": "深入理解Springboot、 Springcloud微服务框架设计原理以及底层架构。"
+        },
+        {
+            "skill_name": "Java",
+            "skill_level": 80,
+            "skill_desc": "具备扎实的Java基础、设计模式、并发编程、网络编程、JVM内存模型、类加载机制及虚拟机调优；"
+        },
+        {
+            "skill_name": "MySQL",
+            "skill_level": 70,
+            "skill_desc": "深入理解Mysql，具有sql优化、Mycat分库分表、索引优化、性能调优、数据库灾备等丰富的实战经验"
+        },
+        {
+            "skill_name": "Redis",
+            "skill_level": 70,
+            "skill_desc": "深入理解Redis，具有集群搭建(Redis Cluster)，冷热备份，性能调优、数据迁移等经验",
+            "dataIndex": 4
+        },
+        {
+            "skill_name": "RocketMQ",
+            "skill_level": 70,
+            "skill_desc": "消息中间件：掌握rocketMQ、Kafka原理及集群布署",
+            "dataIndex": 5
+        },
+        {
+            "skill_name": "Git",
+            "skill_level": 70,
+            "skill_desc": "自动化布署：Git、Jenkins、Gradle"
+        },
+        {
+            "skill_name": "Docker",
+            "skill_level": 70,
+            "skill_desc": "容器化布署：Docker"
+        },
+        {
+            "skill_name": "测试",
+            "skill_level": 70,
+            "skill_desc": "遵循华为测试规范，功能测试（单元测试、冒烟测试、集成测试、QA测试）性能测试（Jmeter、LoadRunner）、自动化测试（selenium、QTP）"
+        }
+    ],
+    "projectList": [
+        {
+            "project_name": "积分权益项目",
+            "project_role": "后端负责人",
+            "project_time": "2021.02 - 2023.03",
+            "project_desc": "该SaaS系统面向政府和商家，旨在支持企业商家入驻，从而实现用户在积分体系中的留存、促活、转化、拉新等功能。帮助商家更好地管理和运营其业务。商家可以轻松地创建和管理积分体系，以吸引更多的用户并提高用户忠诚度。此外，该系统还支持数据分析和报告生成，帮助商家更好地了解其业务运营情况，从而做出更明智的决策,旨在帮助政府和商家实现业务增长和成功。",
+            "project_content": "1. 参与产品需求的评审和产品架构方案的制定等\n  2.独立负责产品功能迭代核心业务代码的开发\n 3. 监控维护系统稳定性及故障问题排查等"
+        },
+        {
+            "project_name": "智慧园区管理平台",
+            "project_role": "高级开发工程师",
+            "project_time": "2019.11 - 2021.01",
+            "project_desc": "智慧园区项目是在园区IT基础设施的基础上，利用物联网、云计算、多媒体等先进信息技术，为园区管理者和企业提供创新的管理与运营服务。该项目旨在构建园区信息化建设的统一组织管理协调架构、业务管理平台和对外服务平台，以提高园区的运营效率和管理水平。 ",
+            "project_content": "主要工作：在该项目中主要负责核心功能建设以及工程治理\n1. 主导系统的架构和核心技术，保证系统的稳定性、高性能、可用性和可扩展性\n2. 负责高质量的设计和编码，承担重点、难点的技术攻坚\n3. 业务标准化图表库建设、促进数据分析能力增强等可视化一体化建设。"
+        },
+        {
+            "project_name": "票务项目系统",
+            "project_role": "核心开发者",
+            "project_time": "2019.01 - 2019.08",
+            "project_desc": "该系统旨在帮助商家和用户快速、便捷地完成票务下单。为商家提供快速地添加新的票务项目、管理库存和价格等信息。同时，我们的系统还支持多种支付方式，包括微信支付、支付宝等，让用户能够方便地完成支付。我们致力于提供高效、安全、可靠的票务下单服务，让商家和用户都能够享受到便捷的购票体验。",
+            "project_content": "1.处理线上服务内存溢出问题，根据dump文件定位内存溢出代码优化。\n2.负责ELK日志采集系统搭建。\n3.	Springcloud核心组件功能搭建。\n5.	Gdslink模块服务并发限制和流量统计。"
+        },
+        {
+            "project_name": "云财税平台系统",
+            "project_role": "核心开发者",
+            "project_time": "2018.04 - 2019.01",
+            "project_desc": "系统支持纸质发票和电子发票的一体化管理，用户可以在线进行开票、查验、进项和报销等操作。我们的系统具有高效、便捷、安全等特点，可以有效地提高财务管理的效率和准确性。用户可以通过我们的平台，实现发票管理的数字化转型，有效降低企业的成本和风险。",
+            "project_content": "1. 负责平台的数据采集,确保数据采集的准确性和及时性。\n 2. 协同前端人员完成页面展示。\n 3. 订单计费系统功能开发"
+        },
+        {
+            "project_name": "电子税票开票系统",
+            "project_role": "核心开发者",
+            "project_time": "2016.02 - 2018.12",
+            "project_desc": "定制化开发电子发票系统,满足不同企业的开票需求。支持快速开具、自动归档、多种发票类型等功能，全面提高了企业开票效率和管理水平。系统还具备高度的安全性和稳定性，确保企业的财务数据不会泄露或丢失。",
+            "project_content": "负责自营开票流程、后台新功能模块功能开发以及整套系统的维护。提高开票效率和准确性，确保客户满意度。同时，我们不断开发后台新功能模块，以满足客户需求和市场趋势。我们注重系统的维护，及时修复漏洞和升级系统版本，保障系统安全和稳定性"
+        }
+    ],
+    "workList": [],
+    "aboutme": {
+        "aboutme_desc": "自驱型后端工程师,近9年Java开发经验，其中3年以上大型系统架构设计经验，以及2年以上的团队管理经验，具有分布式、高并发、高可用的研发经验，负责电商积分权益项目的研发工作。同时拥有扎实的技术功底，对Spring Cloud、Spring、Netty、RocketMQ等开源框架源码有过深入研究，并且有一定的框架开发经验。"
+    },
+    "theme": {
+        "color": "#2f5785",
+        "tagColor": "#8bc34a"
     }
-  ],
-  "skillList": [],
-  "projectList": [
-    {
-      "project_name": "数据作战室",
-      "project_role": "前端负责人",
-      "project_time": "2019.04 - 2020.06",
-      "project_desc": "面向总裁和高管以及决策 BI 的数字化经营决策和管理协同的数据产品。提供一站式的数据化经营决策和管理协同功能，让高管高效获取指标进展以及决策洞察，并提升管理效率。",
-      "project_content": "1. 独立负责产品从 0 到 1 的开发、产品功能迭代（在项目中具有推动项目进度的经验） 2. 产品体验精雕细琢的打磨 3. 建立稳定性保障机制。目前仍在迭代中，帮助提升高管业务决策效率"
-    },
-    {
-      "project_name": "DeepInsight",
-      "project_role": "可视分析负责人",
-      "project_time": "2018.07 - 2019.04 / 2020.07 - 至今",
-      "project_desc": "DeepInsight 是蚂蚁集团自主研发的自助式 BI 数据洞察分析平台，主要功能包括可视化看板搭建、智能分析、数据产品建站等。看板功能类似于火山引擎、PowerBI等产品。） ",
-      "project_content": "在该项目中主要负责可视化建设以及工程治理\n1. 主导开放能力建设，拉通产品、设计建设和扩展 40+ 可视化图形，提升丰富度\n2. 产品体验优化，尤其是对 ECharts 的体验顽疾进行攻克\n3. 主导可视化能力建设：业务标准化图表库建设、促进数据分析能力增强等可视化一体化建设。同时也是 AntV G2Plot 负责人，负责将可视化技术和业务相结合。"
-    },
-    {
-      "project_name": "G2、G2Plot",
-      "project_role": "核心开发者",
-      "project_time": "2019 - 至今",
-      "project_desc": "G2 是基于图形语法理论的可视化渲染引擎，G2Plot 是在 G2 基础上封装的开箱即用的统计可视化图表库",
-      "project_content": "AntV 可视化建设，赋能整个蚂蚁和阿里集团统计可视化分析相关业务。负责 AntV G2、G2Plot、ThemeSet 主题构建器等开源项目的研发工作，同时服务蚂蚁内部所有使用 G2 栈的用户，提供可视化解决方案和定制可视化的协助。"
-    }
-  ],
-  "workList": [],
-  "aboutme": {
-    "aboutme_desc": "自驱型后端工程师,近9年Java开发经验，其中3年以上大型系统架构设计经验，以及2年以上的团队管理经验，具有分布式、高并发、高可用的研发经验，负责电商积分权益项目的研发工作。同时拥有扎实的技术功底，对Spring Cloud、Spring、Netty、RocketMQ等开源框架源码有过深入研究，并且有一定的框架开发经验。"
-  },
-  "theme": {
-    "color": "#2f5785",
-    "tagColor": "#8bc34a"
-  }
 }
