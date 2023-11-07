@@ -120,20 +120,14 @@
         {
             "skill_name": "Git",
             "skill_level": 80,
-            "skill_desc": "自动化布署：Git、Jenkins、Gradle",
+            "skill_desc": "自动化布署：Git、Jenkins、Gradle及Docker、Kubernetes",
             "dataIndex": 6
-        },
-        {
-            "skill_name": "Docker",
-            "skill_level": 70,
-            "skill_desc": "容器化布署：Docker、Kubernetes",
-            "dataIndex": 7
         },
         {
             "skill_name": "测试",
             "skill_level": 90,
             "skill_desc": "遵循华为测试规范，功能测试（单元测试、冒烟测试、集成测试、QA测试）性能测试（Jmeter、LoadRunner）、自动化测试（selenium、QTP）",
-            "dataIndex": 8
+            "dataIndex": 7
         }
     ],
     "projectList": [
